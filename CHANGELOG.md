@@ -2,7 +2,7 @@
 
 ## v0.2.0 (2026-09-14)
 
-- 93 yeni anahtar: worktree atlama paleti, ajan panosu (harita hariç) ve Orca CLI başlangıç hatası ekranı. Toplam 207 anahtar.
+- 101 yeni anahtar: worktree atlama paleti, ajan panosu (harita hariç) ve Orca CLI başlangıç hatası ekranı. Toplam 215 anahtar.
 
 ## v0.1.0 (2026-09-14)
 

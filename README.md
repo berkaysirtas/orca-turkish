@@ -10,7 +10,7 @@
 2. **Install plugin → Git URL**: sürüm etiketiyle birlikte yapıştır (Orca etiketsiz adresi kabul etmez):
 
    ```
-   https://github.com/berkaysirtas/orca-turkish.git#v0.1.0
+   https://github.com/berkaysirtas/orca-turkish.git#v0.2.0
    ```
 
 3. **Settings → Appearance → Language**: **Türkçe** seç.
@@ -19,7 +19,7 @@ Yerelde geliştirmek için: **Settings → Plugins → Development → Add path*
 
 ## Durum
 
-Sürüm 0.1.0, Orca `>=1.4.0`. Menü, tepsi, dil ayarları, durum çubuğu, uzak tarayıcı ayarları, ajan sekmesi tanıtımı ve kurtarma ekranları çevrildi. Kalan katalog kademeli olarak ekleniyor; bir sonraki sürümde ayarlar ve kenar çubuğu bölümleri gelecek.
+Sürüm 0.2.0, Orca `>=1.4.0`, 215 anahtar. Menü, tepsi, dil ayarları, durum çubuğu, uzak tarayıcı ayarları, worktree atlama paleti, ajan panosu, ajan sekmesi tanıtımı, CLI başlangıç hatası ve kurtarma ekranları çevrildi. Kalan katalog kademeli olarak ekleniyor; bir sonraki sürümde ayarlar ve kenar çubuğu bölümleri gelecek.
 
 Katalog, Orca deposundaki `pnpm scaffold:language-pack` aracıyla üretiliyor ve doğrulanıyor (bkz. stablyai/orca#20513): korumalı anahtarlar, yer tutucu uyumu ve katalog sınırları her sürümde denetleniyor.
 
