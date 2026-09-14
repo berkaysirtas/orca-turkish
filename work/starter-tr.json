@@ -1,0 +1,158 @@
+{
+  "menu": {
+    "appearance": "Görünüm",
+    "checkForUpdates": "Güncellemeleri Denetle...",
+    "copy": "Kopyala",
+    "edit": "Düzen",
+    "exit": "Çıkış",
+    "exploreOrca": "Orca'yı Keşfet",
+    "file": "Dosya",
+    "forceReload": "Zorla Yeniden Yükle",
+    "gettingStarted": "Orca'ya Başlarken",
+    "help": "Yardım",
+    "openWorktreePalette": "Worktree Paletini Aç",
+    "paste": "Yapıştır",
+    "reload": "Yeniden Yükle",
+    "reportCrash": "Çökme Bildir...",
+    "resetSize": "Boyutu Sıfırla",
+    "selectAll": "Tümünü Seç",
+    "settings": "Ayarlar",
+    "showAutomationsButton": "Otomasyonlar Düğmesini Göster",
+    "showMobileButton": "Orca Mobil Düğmesini Göster",
+    "showStatusBar": "Durum Çubuğunu Göster",
+    "showTasksButton": "Görevler Düğmesini Göster",
+    "showTitlebarAppName": "Başlık Çubuğunda Uygulama Adını Göster",
+    "toggleLeftSidebar": "Sol Kenar Çubuğunu Aç/Kapat",
+    "toggleRightSidebar": "Sağ Kenar Çubuğunu Aç/Kapat",
+    "view": "Görünüm",
+    "window": "Pencere",
+    "zoomIn": "Yakınlaştır",
+    "zoomOut": "Uzaklaştır"
+  },
+  "tray": {
+    "activityWaiting": "Orca - bekleyen etkinlik",
+    "activityWaitingSuffix": "bekleyen etkinlik",
+    "minimizeNotice": {
+      "body": "Orca sistem tepsisinde çalışmaya devam ediyor"
+    },
+    "openOrca": "Orca'yı Aç",
+    "quit": "Çık"
+  },
+  "settings": {
+    "appearance": {
+      "language": {
+        "chinese": "Çince (Basitleştirilmiş)",
+        "description": "Orca arayüzünde kullanılacak dili seçin.",
+        "english": "İngilizce",
+        "french": "Fransızca",
+        "japanese": "Japonca",
+        "korean": "Korece",
+        "spanish": "İspanyolca",
+        "system": "Sistem",
+        "title": "Dil"
+      },
+      "menuBarIcon": {
+        "description": "macOS menü çubuğunda bir Orca kısayolu ve etkinlik göstergesi tut.",
+        "keyword": {
+          "activity": "etkinlik",
+          "menuBar": "menü çubuğu",
+          "statusItem": "durum öğesi"
+        },
+        "title": "Menü Çubuğu Simgesini Göster"
+      },
+      "statusBar": {
+        "antigravityToggleDescription": "Etkin çalışma alanı için Antigravity abonelik kullanımını göster.",
+        "claudeToggleDescription": "Etkin çalışma alanı için Claude token ve maliyet kullanımını göster.",
+        "codexToggleDescription": "Etkin çalışma alanı için Codex token ve maliyet kullanımını göster.",
+        "geminiToggleDescription": "Etkin çalışma alanı için Gemini token ve maliyet kullanımını göster.",
+        "grokToggleDescription": "Grok CLI ile oturum açıldığında Grok abonelik kredisi kullanımını göster.",
+        "kimiToggleDescription": "Etkin çalışma alanı için Kimi abonelik kullanımını göster.",
+        "minimaxToggleDescription": "Etkin çalışma alanı için MiniMax abonelik kullanımını göster.",
+        "opencodeGoToggleDescription": "Etkin çalışma alanı için OpenCode Go token ve maliyet kullanımını göster.",
+        "portsToggleDescription": "Canlı çalışma alanı portlarını göster. Çalışma alanına özel portlar ve dış dinleyiciler için tıklayın.",
+        "resourceUsageToggleDescription": "Kaynak Yöneticisi'ni göster. CPU, bellek, oturumlar, daemon denetimleri ve çalışma alanı disk taramaları için tıklayın.",
+        "sshToggleDescription": "Yapılandırılmış SSH ve uzak Orca ana makinelerini, mevcut olduklarında göster."
+      }
+    },
+    "browser": {
+      "clientHostedRemote": {
+        "description": "Uzak çalışma alanı sayfalarını bu masaüstünde işle; ağ trafiği yine uzak ana makineden geçer. Yalnızca yeni sayfalara uygulanır.",
+        "optionDevice": "Bu cihaz",
+        "optionDeviceTooltip": "Sayfalar bu masaüstünde işlenir, bu yüzden girdi ve açılır pencereler yerel gibi davranır.",
+        "optionServer": "Sunucu (akış)",
+        "optionServerTooltip": "Sayfalar uzak sunucuda işlenir ve bu cihaza aktarılır.",
+        "rowDescription": "Sayfaların nerede işleneceği. Trafik her zaman uzak sunucudan geçer. Yalnızca yeni sayfalara uygulanır.",
+        "rowTitle": "Uzak sunucu çalışma alanları",
+        "title": "Uzak tarayıcı sayfalarını bu cihazda barındır"
+      },
+      "remoteBrowsing": {
+        "heading": "Uzaktan gezinme",
+        "headingDescription": "Uzak çalışma alanı sayfalarının nerede işleneceği ve ağ trafiğinin nereden çıkacağı."
+      },
+      "sshWorkspaceRouting": {
+        "description": "SSH çalışma alanlarındaki tarayıcı sayfaları trafiğini çalışma alanının SSH ana makinesi üzerinden gönderir, DNS de orada çözülür. Kapalıysa sayfalar bu makineden gezinir.",
+        "disabledHosts": "Bunun yerine bu cihazdan gezinen ana makineler:",
+        "enableHost": "Yeniden yönlendir",
+        "optionDevice": "Bu cihaz",
+        "optionDeviceTooltip": "Sayfalar bu makinenin ağından gezinir.",
+        "optionHost": "SSH ana makinesi",
+        "optionHostTooltip": "Trafik ve DNS çalışma alanının SSH ana makinesinden geçer.",
+        "probeAgain": "Yeniden denetle",
+        "probeSkippedHosts": "Bağlantı denetimi olmadan yönlendirilen ana makineler (Yine de dene):",
+        "rowDescription": "Tarayıcı trafiğinin nereden çıkacağı. Sayfalar her zaman bu cihazda işlenir.",
+        "rowTitle": "SSH çalışma alanları",
+        "title": "SSH çalışma alanı ana makineleri üzerinden gezin",
+        "useHost": "SSH ana makinesini kullan"
+      }
+    }
+  },
+  "app": {
+    "recoverableError": {
+      "rootDescription": "Uygulama kabuğu işlemeyi tamamlayamadı. Yeniden bağlamak için tekrar deneyin; hata sürerse Orca'yı yeniden başlatın.",
+      "rootTitle": "Orca bir işleyici hatasıyla karşılaştı.",
+      "webDescription": "Web istemcisini yeniden deneyin ya da eşleştirilmiş çalışma zamanına yeniden bağlanın.",
+      "webTitle": "Orca web bir işleyici hatasıyla karşılaştı."
+    }
+  },
+  "featureTips": {
+    "voice": {
+      "agentPromptTitle": "Ajan istemi",
+      "demoPrompt": "Bu diff'i uç durumlar için incele ve bulduğun her şey için test ekle.",
+      "focusPaneInstruction": "Bir terminale, editöre ya da ajan istemine odaklanın, sonra şuna basın:",
+      "listening": "Dinleniyor...",
+      "settingsInstruction": "Modeli, dikte modunu ya da kısayolu istediğiniz zaman şuradan değiştirin:",
+      "settingsLink": "Ayarlar → Ses",
+      "startDictation": "Dikteyi başlat",
+      "startInstruction": "sesli dikteyi başlatmak için. Durdurmak için",
+      "stopInstruction": "tuşuna yeniden basın.",
+      "unassignedInstruction": "Odaklanmış bir bölmede sesli dikteyi başlatmadan önce bir dikte kısayolu atayın."
+    }
+  },
+  "agentsSidebarIntro": {
+    "migrated": {
+      "action": "Ajanları Aç",
+      "description": "Ajanlar görünümü artık kenar çubuğunda ayrı bir sekme. Etkinliğiniz ve filtreleriniz korundu.",
+      "dismiss": "Anladım",
+      "title": "Ajanları bulmak artık daha kolay"
+    },
+    "new": {
+      "action": "Ajanları Dene",
+      "description": "Ajanlarınızın ne üzerinde çalıştığını, nelerin bittiğini ve nerede devreye girmeniz gerektiğini görün.",
+      "hiddenToast": "Ajanlar sekmesi gizlendi. Ayarlar → Deneysel bölümünden yeniden etkinleştirin.",
+      "hide": "Ajanları Gizle",
+      "title": "Ajanlar sekmesiyle tanışın"
+    }
+  },
+  "rendererRecovery": {
+    "copyCommands": "Komutları Kopyala",
+    "crashLoopDetail": "Orca art arda {{recoveryCount}} kez kurtarmayı denedi ama başaramadı.",
+    "crashLoopMessage": "Uygulama penceresi tekrar tekrar çöktü ve otomatik yeniden yüklemeyi durdurdu.",
+    "driverFallback": "Bu yardımcı olmazsa neden genellikle bir grafik sürücüsüdür.",
+    "genericDetail": "Bu genellikle bir grafik sürücüsü ya da kurulum sorunudur. Tekrar denemek için yeniden yükleyin ya da Orca'dan çıkıp yeniden başlatın.",
+    "quit": "Çık",
+    "reload": "Yeniden Yükle",
+    "stalledDetail": "Orca bir çökmeden sonra pencereyi yeniden yükledi ama yükleme hiç tamamlanmadı.",
+    "stalledMessage": "Uygulama penceresi bir çökmeden sonra yeniden yüklenirken yanıt vermeyi bıraktı.",
+    "title": "Orca yüklenmeye devam edemiyor"
+  }
+}

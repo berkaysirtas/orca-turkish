@@ -1,0 +1,21 @@
+{
+  "manifestVersion": 1,
+  "id": "turkish",
+  "publisher": "berkaysirtas",
+  "name": "Türkçe",
+  "version": "1.0.0",
+  "description": "Orca arayüzü için Türkçe dil paketi (Turkish language pack for the Orca interface).",
+  "engines": {
+    "orca": ">=1.4.0"
+  },
+  "pluginApi": 1,
+  "contributes": {
+    "languagePacks": [
+      {
+        "locale": "tr",
+        "path": "locales/tr.json"
+      }
+    ]
+  },
+  "capabilities": []
+}
