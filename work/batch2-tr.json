@@ -1,0 +1,153 @@
+{
+  "worktreeJumpPalette": {
+    "filter": {
+      "activeCount": "{{value0}} etkin",
+      "ariaActive": "Filtre: {{value0}} etkin.",
+      "back": "Geri",
+      "chipOverflow": "+{{value0}}",
+      "clearAll": "Tümünü temizle",
+      "clearHosts": "Ana makineleri temizle",
+      "clearProjects": "Projeleri temizle",
+      "emptySubtitle": "Yukarıdaki filtreyi temizleyin ya da daha fazla ana makine ve projeye genişletin.",
+      "emptyTitle": "Etkin filtreyle eşleşen sonuç yok",
+      "hosts": "Ana makineler",
+      "label": "Filtre",
+      "moreOptions": "{{value0}} tane daha, daraltmak için yazmaya devam edin",
+      "noHosts": "Eşleşen ana makine yok",
+      "noOptions": "Eşleşen ana makine ya da proje yok",
+      "noProjects": "Eşleşen proje yok",
+      "projects": "Projeler",
+      "removeChip": "{{value0}} filtresini kaldır",
+      "search": "Ana makine ya da projeye göre filtrele...",
+      "searchHosts": "Ana makineleri filtrele...",
+      "searchProjects": "Projeleri filtrele...",
+      "selectAllMatching": "Eşleşenlerin tümünü seç ({{value0}})",
+      "selectedCollapsed": "{{value0}} seçili, etiketlerden ya da Temizle ile kaldırın",
+      "tabKey": "Tab",
+      "trigger": "Sonuçları filtrele"
+    },
+    "linearIssue": {
+      "createHint": "Linear issue'sundan worktree oluştur",
+      "createLabel": "{{value0}} Linear issue'sundan worktree oluştur: {{value1}}",
+      "loadingHint": "Linear issue'su yükleniyor…",
+      "loadingLabel": "{{value0}} Linear issue'su yükleniyor",
+      "pendingLabel": "{{value0}} Linear issue'sundan worktree oluştur"
+    },
+    "matchLabel": {
+      "automation": "Çalıştır",
+      "comment": "Yorum",
+      "issue": "Issue",
+      "mr": "MR",
+      "port": "Port",
+      "pr": "PR",
+      "task": "Görev"
+    },
+    "renderCapOverflow": "{{value0}} tane daha",
+    "seeMore": "Daha fazla göster",
+    "taskUrl": {
+      "createHint": "{{value0}} kaynağından worktree oluştur",
+      "loadingHint": "{{value0}} yükleniyor…"
+    }
+  },
+  "runtimeRpc": {
+    "startupFailure": {
+      "continueButton": "CLI olmadan devam et",
+      "detail": "Orca çalışmaya devam edecek, ancak orca status, orca terminal ve orkestrasyon gibi komutlar bu oturumda kullanılamaz.\n\n{{guidance}}\n\nNeden: {{cause}}",
+      "guidance": {
+        "addressInUse": "Portu başka bir süreç tutuyor olabilir. Tekrar denemek için Orca'yı yeniden başlatın.",
+        "invalidPath": "Orca'nın veri klasörü eksik, taşınmış ya da çok uzun bir yolda olabilir. Klasörü geri yükleyin ya da daha kısa bir yol kullanın, sonra Orca'yı yeniden başlatın.",
+        "permissionDenied": "Orca çalışma zamanı dosyasını yazamadı. Orca'nın veri klasörünün izinlerini denetleyin, sonra yeniden başlatın.",
+        "storageUnavailable": "Diskiniz dolu ya da salt okunur olabilir. Yer açın, sonra Orca'yı yeniden başlatın.",
+        "unknown": "Tekrar denemek için Orca'yı yeniden başlatın."
+      },
+      "message": "Orca yerel komut aktarımını başlatamadı.",
+      "title": "Orca CLI kullanılamıyor",
+      "unknownCause": "Ek hata ayrıntısı yok."
+    }
+  },
+  "dashboardPopout": {
+    "bucket": {
+      "attention": "Sizi Bekliyor",
+      "done": "Bitti",
+      "empty": "Yok",
+      "idle": "Boşta",
+      "working": "Çalışıyor"
+    },
+    "card": {
+      "review": {
+        "closed": "Kapatılmış inceleme",
+        "draft": "Taslak inceleme",
+        "merged": "Merge edilmiş inceleme",
+        "open": "Açık inceleme"
+      },
+      "subagents_one": "{{count}} alt ajan",
+      "subagents_other": "{{count}} alt ajan",
+      "time": {
+        "days": "{{count}}g",
+        "hours": "{{count}}sa",
+        "justNow": "az önce",
+        "minutes": "{{count}}dk"
+      },
+      "you": "Siz"
+    },
+    "close": "Panoyu kapat",
+    "filters": {
+      "active": "Filtreler",
+      "clear": "Temizle",
+      "clearAll": "Tüm filtreleri temizle",
+      "label": "Filtre",
+      "project": "Proje",
+      "remove": "{{label}} filtresini kaldır",
+      "removeChip": "{{filter}} kaldır",
+      "review": {
+        "closed": "Kapatıldı",
+        "draft": "Taslak",
+        "merged": "Merge edildi",
+        "none": "İnceleme yok",
+        "open": "Açık"
+      },
+      "reviewChip": "İnceleme: {{state}}",
+      "reviewStatus": "PR / MR durumu",
+      "workspaceStatus": "Çalışma alanı durumu"
+    },
+    "host": {
+      "remote": "Uzak Orca ana makinesi",
+      "remoteNamed": "Uzak Orca ana makinesi · {{host}}",
+      "ssh": "SSH ana makinesi",
+      "sshNamed": "SSH ana makinesi · {{host}}"
+    },
+    "placeholder": {
+      "description": "Tüm ajanlarınız burada tek bakışta görünecek. Pano yakında geliyor.",
+      "title": "Ajan panosu"
+    },
+    "recoverableError": {
+      "description": "Pano işlemeyi tamamlayamadı. Yeniden bağlamak için tekrar deneyin ya da panoyu yeniden açın.",
+      "title": "Orca panosu bir hatayla karşılaştı."
+    },
+    "search": {
+      "clear": "Aramayı temizle",
+      "label": "Ajanlarda ara",
+      "placeholder": "Worktree, proje ya da ajan ara…",
+      "results": "{{total}} sonuçtan {{shown}} tanesi gösteriliyor"
+    },
+    "settings": {
+      "showIdle": "Boştaki ajanları göster",
+      "showIdleCopy": "Tamamlandığını bildirmeden 30 dakikadır sessiz kalan ajanları da dahil et. Varsayılan olarak gizlidir."
+    },
+    "settingsLabel": "Ajan Panosu ayarları",
+    "settingsTooltip": "Pano ayarları",
+    "terminal": {
+      "close": "Kapat",
+      "closed": "Canlı terminal yok, bu ajanın bölmesi kapatılmış.",
+      "focusWorktree": "Worktree'yi aç",
+      "remotePreviewUnavailable": "Bu uzak oturum için önizleme yok, terminali görmek için çalışma alanını açın."
+    },
+    "title": "Ajanlar",
+    "total": "toplam {{count}}",
+    "view": {
+      "board": "Pano",
+      "label": "Pano görünümü",
+      "map": "Ajan Haritası"
+    }
+  }
+}
